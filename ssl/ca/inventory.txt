@@ -1,0 +1,7 @@
+0x0001 2015-04-12T22:45:58UTC 2020-04-11T22:45:58UTC /CN=Puppet CA generated on puppetmaster.yatenga.nl at 2015-04-13 18:45:57 -0400
+0x0002 2015-04-12T22:46:02UTC 2020-04-11T22:46:02UTC /CN=puppetmaster.yatenga.nl
+0x0003 2015-04-12T22:46:04UTC 2020-04-11T22:46:04UTC /CN=pe-internal-mcollective-servers
+0x0004 2015-04-12T22:46:07UTC 2020-04-11T22:46:07UTC /CN=pe-internal-peadmin-mcollective-client
+0x0005 2015-04-12T22:46:12UTC 2020-04-11T22:46:12UTC /CN=pe-internal-puppet-console-mcollective-client
+0x0006 2015-04-12T22:46:14UTC 2020-04-11T22:46:14UTC /CN=pe-internal-dashboard
+0x0007 2015-04-12T22:46:16UTC 2020-04-11T22:46:16UTC /CN=pe-internal-classifier

@@ -1,0 +1,3 @@
+server: puppetmaster.yatenga.nl
+port: 4433
+prefix: /classifier-api

@@ -1,2 +1,2 @@
 #!/bin/sh
-puppet apply /root/git/puppet/environments/production/modules/puppet/manifests/site.pp --modulepath=/root/git/puppet/environments/production/modules 
+puppet apply /etc/puppetlabs/puppet/environments/production/manifests/site.pp $* --modulepath=/etc/puppetlabs/puppet/environments/production/modules 

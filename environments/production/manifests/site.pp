@@ -42,9 +42,9 @@ node default {
 }
 
 node 'lintiba-01.yatenga.nl' {
-include memcached
+  include memcached
 }
 node 'puppetmaster' {
-include puppet
+  include puppet
 }
 

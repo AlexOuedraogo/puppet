@@ -41,8 +41,8 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'lintiba-01.yatenga.nl' {
-  include memcached
+node 'lintiba-001.yatenga.nl' {
+include memcached
 }
 node 'puppetmaster' {
   include puppet

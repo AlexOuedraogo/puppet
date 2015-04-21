@@ -1,4 +1,4 @@
-SSH = 'ssh root@puppetmaster.yatenga.nl'
+SSH = 'ssh -l root'
 
 desc "Run Puppet on ENV['CLIENT']"
 task :apply do
@@ -6,4 +6,5 @@ task :apply do
    sh "git push"
    sh "#{SSH} #{client} pull-updates"
 end
+
 

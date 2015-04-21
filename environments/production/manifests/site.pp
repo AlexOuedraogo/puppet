@@ -40,4 +40,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+node 'lintiba-01.yatenga.nl' {
+include memcached
+}
 

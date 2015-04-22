@@ -39,12 +39,13 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+include sshkeys
 }
 
-node 'lintiba-001.yatenga.nl' {
-include memcached
-}
-node 'puppetmaster' {
-  include puppet
-}
+#node 'lintiba-001.yatenga.nl' {
+#include memcached
+#}
+#node 'puppetmaster' {
+#  include puppet
+#}
 

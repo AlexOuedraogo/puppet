@@ -1,6 +1,6 @@
 class user::virtual {
   define ssh_user($key) {
-    user { '$name:
+    user { $name:
       ensure     => 'present',
       managehome => true,
 }

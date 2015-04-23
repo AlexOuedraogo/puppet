@@ -40,6 +40,9 @@ node default {
   # Example:
   #   class { 'my_class': }
 include sshkeys
+include user::virtual
+include user::sysadmins
+include user::developers
 }
 
 #node 'lintiba-001.yatenga.nl' {

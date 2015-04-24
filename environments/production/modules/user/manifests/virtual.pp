@@ -20,7 +20,7 @@ class user::virtual {
 }
 
   @ssh_user { 'beheer':
-    key => 'AAAAB3NzaC1yc2EAAAABIwAAAIEA3ATqENg+GWACa2BzeqTdGnJhNoBer8x6pfWkzNzeM8Zx7/2Tf2pl7kHdbsiTXEUawqzXZQtZzt/j3Oya+PZjcRpWNRzprSmd2UxEEPTqDw9LqY5S2B8og/NyzWaIYPsKoatcgC7VgYHplcTbzEhGu8BsoEVBGYu3IRy5RkAcZik=',		
+    key => 'AAAB3NzaC1yc2EAAAADAQABAAABAQCe8H1BkQPUxNyaYkE/0QCxlAq263BFAnajgnnHa4kY6pp8D4R8LisKcRUtINOy2yZo9l/IOA4DIJwR0HbAVrn16x5RyLiPjd+6A/auYKMgq8K+7kozknaPEgzzItytLqBwrvY0gdAcmY8pMsfDzUebhJPi++Tft4UTo3jsaiw5nRQJrxps9an7Qh+iCS/bxOjY9o0ItqCfkIggSKOVHQlIzdpbdqkUx52OD8blfTcUJBQ4uYDSY+DG628kL35UN9haMHygdwyLE2bohC9EWMjkua2svvp1MDNHMd5egnZlSiU5/9z2f7wW/UWonKphRDrm2cC2d2wdiQ66J35Mgkcn beheer@zandoma.lan'
 }
 
 }

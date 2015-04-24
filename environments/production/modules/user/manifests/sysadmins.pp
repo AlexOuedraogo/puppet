@@ -1,5 +1,5 @@
 class user::sysadmins {
-  include User::Virtual::Ssh_user
+  search User::Virtual
   realize(Ssh_user['beheer'])
 }
 

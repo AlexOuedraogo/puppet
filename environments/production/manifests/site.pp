@@ -41,6 +41,7 @@ node default {
   #   class { 'my_class': }
   include user::virtual
   include user::sysadmins
+  include admin
 }
 
 #node 'lintiba-001.yatenga.nl' {

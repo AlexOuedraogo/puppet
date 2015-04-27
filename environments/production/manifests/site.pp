@@ -50,4 +50,29 @@ include admin
 #node 'puppetmaster' {
 #  include puppet
 #}
+node 'lintiba-004.yatega.nl' {
+  class { 'heartbeat::vip':
+    ip1   => '192.168.122.123',
+    ip2   => '192.168.122.101',
+    node1 => 'lintiba-004.yatenga.nl',
+    node2 => 'lintiba-005.yatenga.nl',
+    vip   => '192.168.122.100/24',
+}
+}
+node 'lintiba-005.yatenga.nl' {
+  class { 'heartbeat::vip':
+    ip1   => '192.168.122.123',
+    ip2   => '192.168.122.101',
+    node1 => 'lintiba-004.yatenga.nl',
+    node2 => 'lintiba-005.yatenga.nl',
+    vip   => '192.168.122.100/24',
+}
+}
+
+
+
+
+
+
+
 

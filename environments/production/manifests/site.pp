@@ -39,9 +39,9 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-include user::virtual
-include user::sysadmins
-include admin
+  include user::virtual
+  include user::sysadmins
+  include admin
 }
 
 #node 'lintiba-001.yatenga.nl' {
